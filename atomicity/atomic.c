@@ -28,7 +28,7 @@ void incrementTask(void *param)
 #else
 		++gSharedVariable;
 #endif
-	printf("Increment Task: shared variable value is %d\n", gSharedVariable);
+		printf("Increment Task: shared variable value is %d\n", gSharedVariable);
 	}
 }
 
